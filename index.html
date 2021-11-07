@@ -1,0 +1,33 @@
+<html>
+<head> 
+    <title>
+        Your Paint 1.1[BC3]
+    </title> 
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="icon" href="https://i3g4v6w8.stackpathcdn.com/wp-content/uploads/2020/02/ms-paint-new-icon.jpg">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_backgorund">
+
+<div align="center">
+<h1>Paint</h1>
+<span><button id="lightmode" onclick="lightMode()">Light Mode</button>&nbsp;&nbsp;&nbsp;&nbsp;<button id="darkmode" onclick="darkMode()">Dark Mode</button></span>
+<br>
+<br>
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+        <br><br>
+
+<!--Additional activity -->
+
+<span><input placeholder="Color" id="color">&nbsp;&nbsp;&nbsp;&nbsp;<input placeholder="Line Width" id="width_of_line"></span>
+<br>
+   <br>
+<button onclick="clear_area()">Clear Area</button>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
